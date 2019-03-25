@@ -2,8 +2,8 @@ import os
 import time
 import requests
 
-max31820_sensor = '/sys/bus/w1/devices/28-000009956cac/w1_slave'
-key = 'A4BSyv'
+max31820_sensor = '/sys/bus/w1/devices/SOME_ADDRESS/w1_slave'
+key = 'SOME_KEY'
 sensor_read_time_interval = 60 # seconds
 
 # Read temp of one wire device using r-pi driver
